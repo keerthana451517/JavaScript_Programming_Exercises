@@ -1,5 +1,4 @@
 // Passing an array to a function
-
 var getVisitorReport = function (visitorArray, dayInWeek) {
 	var days = [
     "Monday",
@@ -24,6 +23,7 @@ var visitors = [ 354, 132, 210, 221, 481 ];
 var report = getVisitorReport(visitors, 2);
 
 console.log(report);
+
 
 
 
