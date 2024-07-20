@@ -3,9 +3,14 @@
 var findTotal;
 var displayMenu;
 
+var number1 = 100;
+var number2 = 200;
+var result;
+
 findTotal = function () {
 	result = number1 + number2;
 };
+findTotal();
 
 displayMenu = function () {
 	console.log("Please choose an option:");
@@ -13,6 +18,10 @@ displayMenu = function () {
 	console.log("(2) Upload file");
 	console.log("(9) Quit");
 };
+displayMenu();
+
+console.log(result);
+
 
 
 
