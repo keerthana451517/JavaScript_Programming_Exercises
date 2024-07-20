@@ -1,5 +1,4 @@
 // An array of constructed objects
-
 var buildPlanet = function (name, position, type) {
     var planet = {};
   
@@ -20,14 +19,14 @@ var buildPlanet = function (name, position, type) {
 var planets = [
     buildPlanet( "Jupiter", 5, "Gas Giant" ),
     buildPlanet( "Neptune", 8, "Ice Giant" ),
-    buildPlanet( "Mercury", 1, "Terrestrial" )
+    buildPlanet( "Mercury", 1, "Terrestrial" ),
+    buildPlanet( "Earth", 3, "The World"),
+    buildPlanet( "Venus", 2, "Coolest Planet")
 ];
 
 planets.forEach(function (planet) {
     planet.showPlanet();
 });
-
-
 
 /* Further Adventures
  *
