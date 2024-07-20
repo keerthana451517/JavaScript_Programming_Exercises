@@ -1,6 +1,14 @@
 // Using a function to display object properties
 
+
 var showMovieInfo;
+var movie;
+
+movie ={
+  title : "Kalki 2898 AD 2024",
+  actors : "Prabhas, Amitabh Bachchan, Kamal Haasan",
+  directors : "Nag Ashwin"
+};
 
 showMovieInfo = function () {
   console.log("Movie information for " + movie.title);
@@ -9,7 +17,7 @@ showMovieInfo = function () {
   console.log("Directors: " + movie.directors);
   console.log("------------------------------");
 };
-
+showMovieInfo();
 
 
 /* Further Adventures
