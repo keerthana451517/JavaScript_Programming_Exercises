@@ -1,5 +1,4 @@
 // Getting a string for a player’s information
-
 var getPlayerName;
 var getPlayerHealth;
 var getPlayerPlace;
@@ -36,7 +35,7 @@ getPlayerInfo = function (playerName, playerPlace, playerHealth) {
 };
 
 console.log(getPlayerInfo("Kandra", "The Dungeon of Doom", 50));
-
+console.log(getPlayerInfo("Daniel", "The Bath", 40));
 
 
 
