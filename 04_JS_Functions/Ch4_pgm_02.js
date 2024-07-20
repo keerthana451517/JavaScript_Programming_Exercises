@@ -22,6 +22,12 @@ movie3 = {
   directors: "J.J.Abrams"
 };
 
+movie4 = {
+  title: "Indian2",
+  actors: "Kamal",
+  directors: "Shankar"
+};
+
 console.log("Movie information for " + movie1.title);
 console.log("------------------------------");
 console.log("Actors: " + movie1.actors);
@@ -39,6 +45,46 @@ console.log("------------------------------");
 console.log("Actors: " + movie3.actors);
 console.log("Directors: " + movie3.directors);
 console.log("------------------------------");
+
+console.log("Movie information for " + movie4.title);
+console.log("------------------------------");
+console.log("Actors: " + movie4.actors);
+console.log("Directors: " + movie4.directors);
+console.log("------------------------------");
+
+
+//calender event
+var event1 , event2 , event3;
+
+event1 ={
+  title : "Project Meeting",
+  Date : "13-7-2024",
+  location : "Conference hall"
+}; 
+
+event2 = {
+  title : "Friends meetup", 
+  Date : "14-7-2024" , 
+  location : "Hot and Cold"
+};
+
+event3 = {
+  title : "Final Assesment",
+  Date : "15-7-2024",
+  location : "IIM auditorium"
+};
+
+function displayInfo(event){
+  console.log("Titile " + event.title);
+  console.log("--------------");
+  console.log("Date " + event.Date);
+  console.log("----------------");
+  console.log("Location " + event.location);
+}
+displayInfo(event1); 
+displayInfo(event2);
+displayInfo(event3);
+
 
 
 
