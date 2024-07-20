@@ -1,5 +1,4 @@
 // A Planet constructor
-
 var Planet = function (name, position, type) {
     this.name = name;
     this.position = position;
@@ -13,8 +12,15 @@ var Planet = function (name, position, type) {
 };
 
 var planet = new Planet( "Jupiter", 5, "Gas Giant" );
+var planet1 = new Planet(
+    "Earth",
+    3,
+    "The World"
+);
 
 planet.showPlanet();
+planet1.showPlanet();
+
 
 
 
