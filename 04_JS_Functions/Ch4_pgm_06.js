@@ -1,9 +1,8 @@
 // Calling the sayHello function three times
-
 var sayHello;
 
 sayHello = function () {
-	console.log("Hello World!");
+	console.log("Hello \n World!");
 };
 
 sayHello();
