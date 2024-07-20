@@ -1,5 +1,4 @@
 // Including a moons array in our Planet constructor
-
 var Planet = function (name, position, type) {
     this.name = name;
     this.position = position;
@@ -16,15 +15,34 @@ var Planet = function (name, position, type) {
     this.addMoon = function (moon) {
         this.moons.push(moon);
     };
+    this.removeMoon = function() {
+        if (this.moons.length > 0) {
+            this.moons.pop();
+        } else {
+            console.log("No moons to remove.");
+        }
+    };
 };
 
 var planet = new Planet( "Jupiter", 5, "Gas Giant" );
+var planet1 = new Planet(
+    "Earth",
+    3,
+    "The World"
+);
 
 planet.addMoon("Io");
 planet.addMoon("Europa");
 
 planet.showPlanet();
 
+planet1.addMoon("Io");
+planet1.addMoon("Europa");
+planet1.addMoon("Continent");
+planet1.addMoon("Australia");
+planet1.removeMoon();
+
+planet1.showPlanet();
 
 
 /* Further Adventures
