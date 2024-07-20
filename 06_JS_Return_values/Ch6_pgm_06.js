@@ -21,8 +21,6 @@ totalCost = function (callOutCharge, costPerHour, numberOfHours) {
     return callOutCharge + costPerHour * numberOfHours;
 };
 
-
-
 /* Further Adventures
  *
  * 1) Run the program.
