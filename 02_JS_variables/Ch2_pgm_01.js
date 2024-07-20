@@ -1,6 +1,8 @@
 // Declaring a variable
 
 var score;
+var players;
+var teams;
 
 /* Further Adventures
  *
