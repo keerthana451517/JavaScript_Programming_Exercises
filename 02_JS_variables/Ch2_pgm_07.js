@@ -6,7 +6,6 @@ var locationName = "The Dungeon of Doom";
 console.log(playerName + " is in " + locationName);
 
 
-
 /* Further Adventures
  *
  * 1) Declare a health variable and assign it
