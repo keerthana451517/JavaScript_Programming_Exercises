@@ -1,5 +1,4 @@
 // Adding methods to our constructed object
-
 var buildPlanet = function (name, position, type) {
     var planet = {};
   
@@ -24,6 +23,14 @@ var planet1 = buildPlanet(
 );
 
 planet1.showPlanet();
+var planet2 = buildPlanet(
+    "Earth",
+    3,
+    "Nature"
+);
+planet2.showPlanet();
+
+
 
 
 
