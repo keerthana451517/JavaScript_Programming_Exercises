@@ -8,6 +8,16 @@ bookName = "The Adventures of Tom Sawyer";
 book = {
     title : bookName
 };
+//browser console output <- {title: 'The Adventures of Tom Sawyer'}
+
+var book2;
+var book2name;
+ 
+book2name = "The Hamlet";
+
+book2 = {
+       title : book2name
+};
 
 
 
