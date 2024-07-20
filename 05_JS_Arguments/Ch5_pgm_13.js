@@ -1,9 +1,10 @@
 // Displaying a player's information
-
 var showPlayerInfo;
 var showPlayerName;
 var showPlayerHealth;
 var showPlayerPlace;
+var showBlankLine;
+var showLine;
 
 showPlayerName = function (playerName) {
     console.log(playerName);
@@ -17,18 +18,26 @@ showPlayerPlace = function (playerName, playerPlace) {
     console.log(playerName + " is in " + playerPlace);
 };
 
+showLine = function(){
+    console.log("---------------------------------")
+}
+
+showBlankLine = function(){
+    console.log("");
+}
+
 showPlayerInfo = function (playerName, playerPlace, playerHealth) {
     console.log("");
 
     showPlayerName(playerName);
 
-    console.log("----------------------------");
+    showLine();
 
     showPlayerPlace(playerName, playerPlace);
     showPlayerHealth(playerName, playerHealth);
 
-    console.log("----------------------------");
-    console.log("");
+    showLine();
+    showBlankLine();
 };
 
 showPlayerInfo("Kandra", "The Dungeon of Doom", 50);
